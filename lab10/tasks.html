@@ -111,7 +111,6 @@ $(document).ready(function() {
 	$.fn.extend({
 		toObject: function() {
 			return this.serializeArray().reduce(function(map, obj) {
-				alert(JSON.stringify(obj));
 				map[obj.name] = obj.value;
 				return map;
 			}, {});
