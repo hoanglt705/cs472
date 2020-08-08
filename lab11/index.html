@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="circle.css" />
+    <script src="scripts/jquery-2.0.3.js"></script>
+    <script src="circle.js"></script>
+</head>
+
+<body>
+
+    <h5>Clean Screen</h5>
+
+    <div id="setting">
+        <div class="row">
+            <div class="col-md-3">
+                <label for="width">Width: </label><input type="text" id="width" value="50" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <label for="amount">Growth Amount: </label><input type="text" id="growAmount" value="10"
+                    class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <label for="rate">Grow Rate: </label><input type="text" id="growRate" value="250" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <label for="noOfCircles">No Of Circles</label><input type="text" class="form-control" id="circleNum"
+                    value="3" placeholder="No Of Circles" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <input type="button" value="Start" class="btn btn-primary" id="btnStart" />
+            </div>
+        </div>
+
+        <div id="circles">
+        </div>
+    </div>
+</body>
+
+</html>
